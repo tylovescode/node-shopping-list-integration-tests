@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: hdlpN+uaUIoINbVBjubMjV1i5QZ+CDNLP+jLROyAWRCH79P7zLxGjiFKdKFPfTJY9CQDpkJEAEKf7CJkskvbweesQ6clRYwJdmGL1TNsOD4dMOiCyyzTFUk6GWKJDf0YALVNPelQ81DLryT+UG2AxEOxp1arTGRivJ+K6WJRBItm3oSVYubLsX0DC+WVKmM/sV6ADwYUEfZo8vuWy8Jp4OVMfrDHEfyeT0C7xTemeYl2PTDbcOA8NE3xW+cNq5vtSrVCHaO5zQpZGLiuXACXRlVZN129ezhNKfn6VVgMJGuja+WNyGnPz4fV7kbXdM/pt2v8AOURvq5r7xzi4ddxOUlXmiBcP+3UGkwD5/VVEZUdkoHuMexJHUtU4XFXttfeVgRd1XhhseEwR6OyDIhGOvQFkkcsVvHraL9+9QU+5Nd+8YS1iEaXRKqgDiSxkUysUw7pQsmsfnBxmPHtxjY4CJcy7aNJDo8fKJFNmBvSD7J6d5boonUw+5LmfHMquXvfMx9cPdhEoSXR4i4D/YDhHaT9IGl3yspD5g6yyAdxiLCmXvKS3ilA/LbKhO8cv9eONLKbgGIfb7OlByu69roiOxdjoNSEkYOKe3u3Lfz6S/KWMJwRqioiigE0AECa9M/n+iVpQV4qAh4h1HZOT5YEDTWxlq06q95SOr9oo6sLKsI=
+  app: tranquil-retreat-86840
+  on:
+    repo: tylovescode/node-shopping-list-integration-tests
